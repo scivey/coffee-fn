@@ -1,0 +1,27 @@
+{
+  "name": "coffee-fn",
+  "version": "0.1.0",
+  "description": "Higher-order utilities in coffeescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scivey/coffee-fn.git"
+  },
+  "author": "Scott Ivey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scivey/coffee-fn/issues"
+  },
+  "homepage": "https://github.com/scivey/coffee-fn",
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "sinon": "~1.9.0",
+    "mocha": "~1.18.2"
+  }
+}
