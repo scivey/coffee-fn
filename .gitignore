@@ -12,6 +12,10 @@ coverage
 *.js
 test/*.js
 
+coffee-fn.sublime-project
+coffee-fn.sublime-workspace
+
+
 pids
 logs
 results
