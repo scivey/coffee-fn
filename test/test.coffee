@@ -467,6 +467,17 @@ describe 'math', ->
 				nums = [5,3,2]
 				assert.deepEqual(func.catMap(nums, makePair), [5,5,3,3,2,2])
 
+
+		describe 'zipNext', ->
+			{zipNext} = func
+			it 'pairs each list element with the one following', ->
+				nums = [0,1,2,3]
+
+				expected = [[0,1],[1,2],[2,3],[3,undefined]]
+
+				assert.deepEqual(zipNext(nums), expected)
+
+
 		describe 'nth', ->
 			it 'returns nth elem of list', ->
 				nums = [1,2,3,4,5]

@@ -209,6 +209,10 @@ zipMap = (list, fn) ->
 
 zipMapWith = rev2 zipMap
 
+zipNext = (aList) ->
+    _.zip(aList, aList.slice(1))
+
+
 joinWith = (separator, list) ->
     list.join(separator)
 
@@ -380,6 +384,7 @@ exp =
     keyMapWith: keyMapWith
     objMap: objMap
     objMapWith: objMapWith
+    zipNext: zipNext
     extend: extend
 
 module.exports = exp
