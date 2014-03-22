@@ -1,1 +1,4 @@
 coverage
+*.sublime-project
+*.sublime-workspace
+
