@@ -5,7 +5,7 @@ fs = require 'fs'
 inDir = (fname) ->
 	path.join __dirname, fname
 
-main = require inDir('main.js')
+main = require inDir('lib/main.js')
 
 outs = _.extend {}, main
 
